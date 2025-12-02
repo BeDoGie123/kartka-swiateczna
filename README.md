@@ -1,2 +1,0 @@
-# kartka-swiateczna
-wcisnij prezent
