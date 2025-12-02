@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <article class="snowflake">❄️</article>
+    <section><img src="mute.png" alt="mute" class="audio"></section>
+    <div>
+        <h2>Wesołych świąt</h2>
+        <img src="gift.png" alt="gift" class="gift" onclick="playStop()" title="WCIŚNIJ MNIE">
+        <p>życzy<br /> Bartosz Gajda 😁</p>
+    </div>
+    <script>
+        let audio;
+        let playedBefore=false;
+        let playing=false;
+        let image=document.getElementsByClassName('audio')[0];
+        function playStop(){
+            
+            if(!playing){
+                playing=true;
+                if(!playedBefore){
+                    audio=new Audio('indian.mp3');
+                    audio.loop=true;
+                    playedBefore=true;
+                }
+                audio.play();
+                image.src='volume-down.png';
+            }
+            else{
+                audio.pause();
+                playing=false;
+                image.src='mute.png';
+            }
+        }
+    </script>
+
+</body>
+</html>
