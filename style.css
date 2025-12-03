@@ -74,8 +74,8 @@ section{
     top: 0px;
     left:0px;
     z-index: 1;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     animation: snowfall 10s linear infinite;
 }
@@ -106,3 +106,4 @@ section{
 .snowflake:nth-child(17) { left: 90vw; animation-duration: 3s; animation-delay: 0s; }
 
 .snowflake:nth-child(18) { left: 100vw;animation-duration: 2s; animation-delay: 0s; }
+
