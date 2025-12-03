@@ -25,8 +25,8 @@ div{
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #000;
     border-radius: 50px;
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     margin: auto;
     text-align: center;
     padding: 30px;
@@ -104,4 +104,5 @@ section{
 .snowflake:nth-child(15) { left: 70vw;animation-duration: 3s; animation-delay: 0s; }
 .snowflake:nth-child(16) { left: 80vw; animation-duration: 2s; animation-delay: 0s; }
 .snowflake:nth-child(17) { left: 90vw; animation-duration: 3s; animation-delay: 0s; }
+
 .snowflake:nth-child(18) { left: 100vw;animation-duration: 2s; animation-delay: 0s; }
